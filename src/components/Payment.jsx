@@ -5,11 +5,14 @@ import Button from "./Button";
 const Payment = () => {
   const [cardNUmber, setCardNUmber] = useState("");
   const [nameOnCard, setNameOnCard] = useState("");
+  const [date, setDate] = useState("");
+  const [cvv, setCVV] = useState("");
+
   return (
     <div className="customer-info-container">
       <div className="info-text">
         <p className="number">2</p>
-        <p>Payment</p>
+        <p className="title">Payment</p>
       </div>
       <div className="input-container">
         <Input
@@ -24,15 +27,15 @@ const Payment = () => {
             type="date"
             label="Expiry date"
             placeHolder="Enter expiry date"
-            value={cardNUmber}
-            onChange={(e) => setCardNUmber(e.target.value)}
+            value={date}
+            onChange={(e) => setDate(e.target.value)}
           />
           <Input
             type="CVV code"
             label="Card Number"
             placeHolder="Enter cvv code"
-            value={cardNUmber}
-            onChange={(e) => setCardNUmber(e.target.value)}
+            value={cvv}
+            onChange={(e) => setCVV(e.target.value)}
           />
         </div>
 

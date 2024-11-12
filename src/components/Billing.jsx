@@ -6,7 +6,7 @@ const Billing = () => {
     <div className="customer-info-container">
       <div className="info-text">
         <p className="number">3</p>
-        <p>Billing</p>
+        <p className="title">Billing</p>
       </div>
     </div>
   );

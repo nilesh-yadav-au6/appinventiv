@@ -141,3 +141,18 @@ button {
 .item-info-div {
   text-align: left;
 }
+
+.text-price {
+  color: gray;
+  text-align: left;
+}
+
+.item-text {
+  color: black;
+  font-weight: bold;
+}
+
+.title {
+  font-weight: bold;
+  font-size: medium;
+}

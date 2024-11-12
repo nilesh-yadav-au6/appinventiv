@@ -1,7 +1,7 @@
 const Items = () => {
   return (
     <div className="item-details">
-      <p style={{ color: "gray", textAlign: "left" }}>ITEMS</p>
+      <h5 style={{ color: "gray", textAlign: "left" }}>ITEMS</h5>
       <div className="item-image-container">
         <img
           className="image-div"
